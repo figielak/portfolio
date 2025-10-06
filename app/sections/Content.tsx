@@ -44,7 +44,7 @@ export default function Content() {
           <div>
             <h1 className="content-title">About Me</h1>
             <div className="big-divider"></div>
-            <p className="content-text mb-7">Siema jestem krystian...</p>
+            <p className="content-text mb-7">Nazywam się Krystian Figiela. Studiuję inżynierię i analizę danych, a moją pasją jest tworzenie praktycznych rozwiązań w Pythonie, które łączą analizę, logikę i odrobinę kreatywności.</p>
             <div className="content-subtitle">What I'm doing</div>
             <AboutCards />
             <div className="content-subtitle">Skills</div>

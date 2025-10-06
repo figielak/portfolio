@@ -21,7 +21,7 @@
 
 @layer utilities {
   .navbar {
-    @apply hidden xl:flex flex-row gap-3 bg-[#282829] border-[#383838] border-1 border-t-0 border-r-0 rounded-bl-3xl rounded-tr-3xl p-4 text-center w-fit;
+    @apply hidden xl:flex flex-row gap-3 bg-[#282829] border-[#383838] border-1 border-t-0 border-r-0 rounded-bl-3xl rounded-tr-3xl p-4 text-center w-fit z-10;
   }
   .navbar button{
     @apply bg-transparent border-none px-4;
@@ -216,13 +216,6 @@
     @apply absolute bottom-8 right-8 bg-[#282829] text-[#714CDF] px-6 py-3 rounded-xl shadow-xl;
   }
 
-  /* Styl dla kontenera umiejętności */
-  .skills-container {
-    width: 100%;
-    overflow: hidden;
-    padding: 20px 0;
-  }
-
   .skills-track {
     display: flex;
     gap: 20px;
@@ -273,7 +266,8 @@
 
   /* Efekt przyciemnienia na krawędziach umiejętności */
   .skills-container {
-    position: relative;
+    @apply ml-[-32px] rounded-bl-3xl rounded-br-3xl border-none w-[calc(100%+64px)] overflow-hidden relative p-5;
+  
   }
 
   .skills-container::before,

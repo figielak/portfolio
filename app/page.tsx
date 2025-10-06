@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center pt-4 gap-4 xl:gap-6 xl:pt-24 xl:flex-row xl:items-start xl:justify-center xl:max-w-7xl xl:mx-auto xl:px-4" >
       <section className="left-section_desktop sticky h-fit top-16" >
-        <img src="/smile.png" alt="Zdjęcie" className=" w-40 h-40 bg-[#353536] mx-auto mt-8 mb-3 rounded-xl"/>
+        <img src="/icons/man-avatar.png" alt="Zdjęcie" className=" w-40 h-40 bg-[#353536] mx-auto mt-8 mb-3 rounded-xl"/>
         <h2 className="text-2xl font-bold">Krystian Figiela</h2>
         <div className="status">Student at Rzeszów University of Technology</div>
 
